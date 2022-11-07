@@ -1,7 +1,7 @@
 
 
 export class Cafe {
-  id: string;
+  id: number;
   nombre:String;
   tipo: string;
   region: string;
@@ -10,7 +10,7 @@ export class Cafe {
   imagen: string;
 
   public constructor (
-    id:string,
+    id:number,
     nombre:string,
     tipo:string,
     region:string,

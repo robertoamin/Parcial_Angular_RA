@@ -1,12 +1,14 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { CafesComponent } from './cafes.component';
+import { ListadoCafesComponent } from './listado-cafes/listado-cafes.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   imports: [
-    CommonModule
+    CommonModule,
+    HttpClientModule
   ],
-  declarations: [CafesComponent],
-  exports: [CafesComponent]
+  declarations: [ListadoCafesComponent],
+  exports: [ListadoCafesComponent]
 })
 export class CafesModule { }

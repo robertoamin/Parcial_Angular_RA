@@ -2,7 +2,7 @@ import { TestBed } from '@angular/core/testing';
 import { RouterTestingModule } from '@angular/router/testing';
 import { AppComponent } from './app.component';
 import { HttpClientModule } from '@angular/common/http';
-import { CafesComponent } from './cafes/cafes.component';
+import { ListadoCafesComponent } from './cafes/listado-cafes/listado-cafes.component';
 
 describe('AppComponent', () => {
   beforeEach(async () => {
@@ -11,7 +11,7 @@ describe('AppComponent', () => {
         RouterTestingModule, HttpClientModule
       ],
       declarations: [
-        AppComponent,CafesComponent
+        AppComponent,ListadoCafesComponent
       ],
     }).compileComponents();
   });

@@ -1,14 +1,14 @@
 import { Component, OnInit } from '@angular/core';
-import { Cafe } from './cafe';
+import { Cafe } from '../cafe';
 
-import { CafeService } from './cafe.service';
+import { CafeService } from '../cafe.service';
 
 @Component({
   selector: 'app-cafes',
-  templateUrl: './cafes.component.html',
-  styleUrls: ['./cafes.component.css']
+  templateUrl: './listado-cafes.component.html',
+  styleUrls: ['./listado-cafes.component.css']
 })
-export class CafesComponent implements OnInit {
+export class ListadoCafesComponent implements OnInit {
 
 
   constructor(private cafeService: CafeService) { }
